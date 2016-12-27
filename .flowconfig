@@ -1,0 +1,10 @@
+[ignore]
+
+[include]
+
+[libs]
+flow/stub/__dev__.js
+
+[options]
+module.system=haste
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|(\\(>=0\\.\\(2[0-8]\\|1[0-9]\\|[0-9]\\).[0-9]\\)? *\\).*\n

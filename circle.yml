@@ -1,0 +1,16 @@
+machine:
+  timezone: Asia/Tokyo
+  node:
+    version: 6.10.2
+  post:
+    - curl -o- -L https://yarnpkg.com/install.sh | bash
+dependencies:
+  pre:
+    - yarn --version
+  override:
+    - yarn
+  cache_directories:
+    - ~/.cache/yarn
+test:
+  override:
+    - yarn test:ci
