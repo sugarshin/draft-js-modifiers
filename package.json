@@ -21,7 +21,7 @@
     "lint": "eslint src test",
     "type": "flow",
     "check": "npm run lint && npm run type",
-    "test": "ava -v",
+    "test": "BABEL_ENV=test ava -v",
     "test:coverage": "nyc npm test",
     "test:coverage:report": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls",
     "test:ci": "npm run check && npm run test:coverage:report",
