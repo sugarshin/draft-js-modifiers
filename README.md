@@ -141,6 +141,16 @@ toggleEntity(editorState: EditorState, entityKey: ?string)
 toggleInlineStyle(editorState: EditorState, inlineStyle: string)
 ```
 
+## How to add module
+
+```bash
+yarn run add -- moduleName
+
+# or
+
+npm run add -- moduleName
+```
+
 ## License
 
 [MIT][license-url]

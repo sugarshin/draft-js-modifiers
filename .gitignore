@@ -63,3 +63,4 @@ typings/
 !/src/**
 !/test/**
 !/flow/**
+!/script/**
