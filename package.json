@@ -17,6 +17,7 @@
   "author": "sugarshin",
   "license": "MIT",
   "scripts": {
+    "add": "node ./script/add-module",
     "start": "npm run watch:test",
     "lint": "eslint src test",
     "type": "flow",
