@@ -1,6 +1,6 @@
 {
-  "extends": ["eslint:recommended", "plugin:flowtype/recommended"],
-  "plugins": ["babel", "flowtype"],
+  "extends": ["eslint:recommended", "plugin:flowtype/recommended", "plugin:ava/recommended"],
+  "plugins": ["babel", "flowtype", "ava"],
   "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module"
@@ -10,8 +10,6 @@
     "node": true
   },
   "rules": {
-    "babel/new-cap": 0,
-    "babel/no-invalid-this": 1,
     "semi": [2, "never"],
     "comma-dangle": [2, {
       "arrays": "always-multiline",
@@ -20,6 +18,6 @@
       "exports": "never",
       "functions": "never"
     }],
-    "no-extra-boolean-cast": 0
+    "ava/no-skip-test": 1
   }
 }

@@ -2,13 +2,13 @@
   "plugins": ["transform-flow-strip-types"],
   "env": {
     "commonjs": {
-      "presets": ["es2016", "es2015"],
+      "presets": ["es2017", "es2016", "es2015"],
     },
     "es":{
-      "presets": ["es2016", ["es2015", { "modules": false }]],
+      "presets": ["es2017", "es2016", ["es2015", { "modules": false }]],
     },
     "test": {
-      "presets": ["es2016", "es2015"]
+      "presets": ["es2017", "es2016", "es2015"]
     }
   }
 }
