@@ -33,7 +33,7 @@
     "build:commonjs": "BABEL_ENV=commonjs babel -d . src",
     "build:es": "BABEL_ENV=es babel -d es src",
     "build": "npm run build:commonjs && npm run build:es",
-    "prepublish": "npm run check && npm run test:coverage && npm run build"
+    "prepublishOnly": "npm run check && npm run test:coverage && npm run build"
   },
   "ava": {
     "require": [
