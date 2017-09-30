@@ -1,7 +1,7 @@
 machine:
   timezone: UTC
   node:
-    version: 6.11.0
+    version: 8.6.0
   post:
     - curl -o- -L https://yarnpkg.com/install.sh | bash
 dependencies:
