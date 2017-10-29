@@ -4,7 +4,7 @@ import { EditorState, ContentBlock, CharacterMetadata, genKey } from 'draft-js'
 import { Map, List, Repeat } from 'immutable'
 import getCurrentBlock from './utils/getCurrentBlock'
 
-import type { DraftBlockType } from 'draft-js'
+import type { DraftBlockType } from 'draft-js/lib/DraftBlockType'
 
 const insertNewBlock = (
   editorState: EditorState,
