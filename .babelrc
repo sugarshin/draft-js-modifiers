@@ -1,14 +1,14 @@
 {
-  "plugins": ["transform-flow-strip-types"],
+  "plugins": ["@babel/plugin-transform-flow-strip-types"],
   "env": {
     "commonjs": {
-      "presets": ["es2017", "es2016", "es2015"],
+      "presets": ["@babel/preset-es2017", "@babel/preset-es2016", "@babel/preset-es2015"],
     },
     "es":{
-      "presets": ["es2017", "es2016", ["es2015", { "modules": false }]],
+      "presets": ["@babel/preset-es2017", "@babel/preset-es2016", ["@babel/preset-es2015", { "modules": false }]],
     },
     "test": {
-      "presets": ["es2017", "es2016", "es2015"]
+      "presets": ["@babel/preset-es2017", "@babel/preset-es2016", "@babel/preset-es2015"]
     }
   }
 }
