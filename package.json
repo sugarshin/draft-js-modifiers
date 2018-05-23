@@ -28,7 +28,7 @@
     "test:coverage:report": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls",
     "test:ci": "npm run check && npm run test:coverage:report",
     "watch:test": "npm test -- --watch",
-    "clean:build": "rm -rf ./*.js ./utils",
+    "clean:build": "rm -rf ./*.js ./utils ./es",
     "prebuild": "npm run clean:build",
     "build:commonjs": "BABEL_ENV=commonjs babel -d . src",
     "build:es": "BABEL_ENV=es babel -d es src",
