@@ -21,7 +21,7 @@
     "add": "node ./script/add-module",
     "start": "npm run watch:test",
     "lint": "eslint src test",
-    "type": "flow",
+    "type": "flow src",
     "check": "npm run lint && npm run type",
     "test": "ava -v",
     "test:coverage": "nyc npm test",
@@ -59,7 +59,7 @@
     "eslint-plugin-ava": "^4.5.1",
     "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-flowtype": "^2.47.1",
-    "flow-bin": "^0.66.0",
+    "flow-bin": "^0.70.0",
     "nyc": "^11.8.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
