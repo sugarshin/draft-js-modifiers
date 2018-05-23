@@ -1,6 +1,6 @@
 {
   "name": "draft-js-modifiers",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Modular state modifiers for Draft.js",
   "main": "index.js",
   "module": "es/index.js",
